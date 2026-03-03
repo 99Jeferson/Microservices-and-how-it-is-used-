@@ -15,12 +15,12 @@ This approach allows Netflix to support over 200 million subscribers globally wi
 
 Two Other Companies Using Microservices Successfully.
 
-1.Amazon
+1.Amazon:
 Amazon (including Amazon e-commerce and AWS) uses microservices to manage it's massive online retail and infrastrcuture systems.
 How it works. This functions like product search, order processing, paymemts, inventory, shipping are seperateed into independent services.
 Benefits: This allows Amazon to handle huge volumes of traffic (millions of users and transactions) and introduce new features quickly.
 why it works: Independent scaling, fault isolation, and distributed development teams are crucial for a platform that must never go offline- a key requirement for Amazon's global e-commerce operations.
-2.Spotify
+2.Spotify:
 Spotify, the music streaming company, also adopted microservices to support it's fast-development and personalized user experience.
 How it works: Spotify decomposed its platform into several services responsible for personalization, playlists, search, streaming, etc.
 Benefits: Developers can update different parts of Spotify independently, improving reliability and accelerating feature delivery.
@@ -28,13 +28,13 @@ Challenges Managed: Spotify balances the complexity of distributed services with
 Companies That Adopted Microservices but Later Reversed Course
 Although microservices are widely viewed as modern and scalable, they are not always better for every company. Some organizations found them tooo complex, costly, or unnecessary for their size and needs, and returned to monolithic architectures (or other simplified systems).
 
-1.	Amazon Prime Video (Specific Service)
+1.	Amazon Prime Video (Specific Service):
 A team within Prime Video found that microservices for its monitoring system were too expensive and inefficient at scale. They consolidated components into a monolith, reducing infrastructure costs by over 90%.
 
-2.	InVision
+2.	InVision:
 InVision, a design platform, found microservices introduced coordination challenges, latency, and complexity, so they reverted to a monolithic archetecture to simplify development and improve performance.
 
-3.	Segment
+3.	Segment:
 Segment originally adopted microservices but faced operational overhead and complexity. They shifted back to toward a monolith to streamline workloads and improve development velocity.
 
 Key takeaways
