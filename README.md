@@ -36,6 +36,5 @@ InVision, a design platform, found microservices introduced coordination challen
 
 # iii.	Segment:
 Segment originally adopted microservices but faced operational overhead and complexity. They shifted back to toward a monolith to streamline workloads and improve development velocity.
-
-Key takeaways
-Microservices work best for large, complex systems with many users and frequent updates (like Netflix and Amazon).
+# Conclusion
+Microservices work best for large-scale systems like Netflix and Amazon. However, they introduce complexity and are not always suitable for smaller organizations.
